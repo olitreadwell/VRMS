@@ -25,7 +25,7 @@
 - Not assessed in depth this run; no targeted issue. Trivial cleanup (typos/broken links/stale commands) selected — no specific area to avoid.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-03` self-found trivial-fix pass (typos/broken links/stale commands) — outcome below.
+- `2026-09-03` self-found trivial-fix pass — pr-opened (https://github.com/olitreadwell/VRMS/pull/2). 7 fixes / 4 files: README 'evets'->'events', README license badge MIT->AGPL-3.0 + broken license-url main/LICENSE.txt->development/LICENSE (verified 404), backend/README duplicated 'can can' + 'it's'->'its', issue template 'team meeting team'->'team meeting time', backend comment 'succesfully'->'successfully'. All English/US, meaning-preserving, verified. Lesson: reuse these.
 
 ## Mined gaps (discovered, not yet attempted)
 - (filled by the run — see ledger)
