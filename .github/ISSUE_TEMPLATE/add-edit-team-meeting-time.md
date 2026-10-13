@@ -10,7 +10,7 @@ assignees: ''
 ### Overview
 We need to add/change the team meeting time for [YOUR PROJECT NAME HERE] so it will appear correctly on hackforla.org
 
-### Is your team meeting team already displayed on hackforla.org?
+### Is your team meeting time already displayed on hackforla.org?
 - [ ] yes
 - [ ] no
 
