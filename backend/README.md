@@ -16,7 +16,7 @@ You will need to be in the backend directory for this to work.
 
 To maintain idempotent tests, we have opted to use in memory test databases. Jest, like
 most test runners, has hooks or methods for you to call before or after tests. We can 
-can setup our db and tear it down by importing the `setupDB` module.
+setup our db and tear it down by importing the `setupDB` module.
 
     ```js
     // You will need to require the db-handler file.
@@ -28,7 +28,7 @@ can setup our db and tear it down by importing the `setupDB` module.
 
 If you are unsure of where to start, then find a test that does something similar to your
 aims. Copy, tweak, and run that test until you have your desired outcome. Also make sure
-to give your test it's own name.
+to give your test its own name.
 
 ### Unit Tests
 

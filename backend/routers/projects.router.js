@@ -5,7 +5,7 @@ import { ProjectController } from '../controllers/index.js';
 // import { Auth } from '../middleware/index.js';
 // import { ROLES } from '../../shared/roles.js';
 
-// Require user to be project manager or higher (commented out for now for current app to work succesfully without auth, will re-enable when auth is ready)
+// Require user to be project manager or higher (commented out for now for current app to work successfully without auth, will re-enable when auth is ready)
 // router.use(Auth.authUser, Auth.requireMinimumRole(ROLES.PROJECT_MANAGER));
 // The base is /api/projects
 

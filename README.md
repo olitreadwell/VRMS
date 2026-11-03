@@ -27,7 +27,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![AGPL-3.0][license-shield]][license-url]
 
 VRMS is a tool used for the engagement, support, and retention of a network of volunteers.
 
@@ -56,7 +56,7 @@ This is an ambitious project to create a system that will help us measure our hu
 
 ## About The Project
 
-VRMS is a tool originally developed to track membership attendance of meetings and evets. It's built in-house, deployed with an express backend and React frontend on AWS, and uses service workers to manage event creation and opening/closing of events.
+VRMS is a tool originally developed to track membership attendance of meetings and events. It's built in-house, deployed with an express backend and React frontend on AWS, and uses service workers to manage event creation and opening/closing of events.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +143,7 @@ Thanks for all your hard work!
 [issues-shield]: https://img.shields.io/github/issues/hackforla/VRMS.svg?style=for-the-badge
 [issues-url]: https://github.com/hackforla/VRMS/issues
 [license-shield]: https://img.shields.io/github/license/hackforla/VRMS.svg?style=for-the-badge
-[license-url]: https://github.com/hackforla/VRMS/blob/main/LICENSE.txt
+[license-url]: https://github.com/hackforla/VRMS/blob/development/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/trilliumsmith
 [product-screenshot]: images/screenshot.png
