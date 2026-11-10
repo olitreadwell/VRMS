@@ -10,7 +10,7 @@
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.16.7",
     "@mui/x-date-pickers": "^7.21.0",
-    "@tailwindcss/vite": "^4.1.10",
+    "@tailwindcss/vite": "^4.3.5",
     "@vitejs/plugin-react": "^4.4.1",
     "@vitejs/plugin-react-swc": "^3.10.1",
     "classnames": "^2.2.6",
@@ -31,7 +31,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.44.3",
     "react-router-dom": "^5.1.2",
-    "tailwindcss": "^4.1.10",
+    "tailwindcss": "^4.3.5",
     "validator": "^13.15.22",
     "vite": "^6.4.2",
     "vite-plugin-svgr": "^4.3.0"
@@ -42,6 +42,7 @@
     "start": "dotenv -e .env -e ../backend/.env -- cross-var cross-env PORT=%CLIENT_PORT% vite",
     "build": "vite build",
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "preview": "vite preview",
     "heroku-postbuild": "npm run build"
   },
@@ -54,9 +55,14 @@
   "devDependencies": {
     "@testing-library/dom": "^10.3.2",
     "@testing-library/react": "^16.0.0",
+    "@types/d3": "5",
+    "@types/node": "24",
+    "@types/react": "18",
+    "@types/react-dom": "18",
     "autoprefixer": "^10.4.21",
     "jsdom": "^24.1.0",
     "sass": "^1.49.7",
+    "typescript": "^7.0.2",
     "vitest": "^3.2.6"
   },
   "engines": {
